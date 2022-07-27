@@ -39,7 +39,7 @@ const NavSearch = () => {
                 <li><Link to='/ingreso' className="dropdown-item"  >Login</Link></li>
               </ul>
             </div>
-            {carrito.length > 0
+            {carrito?.length > 0
               ? <div className="CartWidget">
                 <Link to='/carrito'><img src="../cart.svg" alt='cart' className='CartImg' /></Link>
                 {cantidad}
