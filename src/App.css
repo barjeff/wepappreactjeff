@@ -1,0 +1,392 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+  display: flex;
+  background-image: linear-gradient(to right, #b9bcbe, rgb(197, 221, 224), rgb(4, 21, 22), rgb(183, 235, 238), rgb(144, 233, 239));
+  height: auto;
+  margin-bottom: 10px;
+}
+.ulnav {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-brand{
+  text-decoration: none;
+  background-color: #f3ec78;
+        background-image: linear-gradient(45deg, rgb(16, 16, 16), rgb(88, 88, 88), #878686) ;
+        background-size: 100%;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-text-fill-color: transparent; 
+ 
+   font-size: 2em;
+}
+.btnseacrh {
+  width: 250px;
+  }
+  
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 50px;
+  box-shadow: 0 3px 13px 1px rgb(0, 0, 0, 9%);
+  background-image: linear-gradient( #c1c8cb, rgb(227, 246, 248));
+}
+.imagencard {
+  align-self: center;
+  padding: 5PX;
+  margin: 10px;
+  width: 200px;
+  height: 300px;
+
+}
+
+button {
+  display: inline-block;
+  padding: 8px 20px;
+  margin-left: 15px;
+  border: 1px solid #40addb;
+  border-radius: 4px;
+  transition: all 0.2s ease-in;
+  position: relative;
+  overflow: hidden;
+  font-size: 15px;
+  z-index: 1;
+  
+}
+button::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) scaleY(1) scaleX(1.25);
+  top: 100%;
+  width: 140%;
+  height: 180%;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 50%;
+  display: block;
+  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -1;
+}
+
+button::after {
+  content: "";
+  position: absolute;
+  left: 55%;
+  transform: translateX(-50%) scaleY(1) scaleX(1.45);
+  top: 180%;
+  width: 160%;
+  height: 190%;
+  background-color: #eef4c4;
+  border-radius: 50%;
+  display: block;
+  transition: all 1s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -1;
+}
+
+button:hover {
+  color: #ffffff;
+  border: 1px solid #99bbba;
+}
+
+button:hover::before {
+  top: -35%;
+  background-color: #83efe1;
+  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+button:hover::after {
+  top: -45%;
+  background-color: #d5ef10;
+  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+.carddetail {
+  margin: 50px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 3px 13px 1px rgb(0, 0, 0, 9%);
+  background-image: linear-gradient( #c1c8cb, rgb(227, 246, 248));
+}
+
+.contenerdorTextoB {
+  text-align: center;
+
+}
+
+.hunoDetail {
+  color: #f3f5e7;
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to right, #b9bcbe, rgb(197, 221, 224), rgb(27, 38, 39),rgb(197, 221, 224), rgb(144, 233, 239));
+}
+
+.textdescripcion {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.descripcion{
+  text-align: justify;
+  padding: 15px;
+}
+
+.Controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 15px;
+}
+
+.contenedorCarrito {
+
+   box-shadow: 0 3px 13px 1px rgb(0, 0, 0, 9%);
+  background-image: linear-gradient( #c1c8cb, rgb(227, 246, 248));
+}
+.colbutton {
+
+  padding: 20px;
+  margin: 50px;
+}
+.btnCompra {
+
+height: 150px;
+width: 100px;
+
+}
+
+.imagenCart {
+  height: 100px;
+  width: 85px;
+}
+
+
+
+.input {
+  margin: 20px;
+}
+.hCompraExitosa {
+  margin: 50px;
+  text-align: center;
+}
+
+#teAyudamos {
+  height: 90vh;
+  width: 100%;
+  padding: 7rem 0;
+  background: url(https://images.samsung.com/ar/smartphones/galaxy-s22/images/galaxy-s22_highlights_kv_img.jpg) center center / cover no-repeat fixed;
+}
+.hparallx {
+ /* color: black; */
+  background-color: #f3ec78;
+      background-image: linear-gradient(45deg, rgb(166, 35, 166), rgb(242, 170, 37), #af4261);
+      background-size: 100%;
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -moz-text-fill-color: transparent; 
+}
+
+.hcartcontainer {
+  justify-content: center;
+  text-align: center;
+}
+
+.CartImg {
+  height: 30px;
+  
+}
+
+
+.CartImg:hover {
+  background-color: #f5f5f1;
+  
+}
+
+
+.containerDetail {
+  display: flex;
+  justify-content: center;
+
+}
+
+.hDatos {
+  margin-bottom: 100px;
+}
+
+.navbar-brandb {
+  text-decoration: none;
+  color: #141414;
+   font-size: 1.8em;
+}
+
+.containerLogut {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: auto;
+  position: fixed;
+  top: 200px;
+  right: 20px;
+  transition: 0.5s;
+  z-index: 1;
+
+}
+.containerform {
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.formloginlogout {
+width: 400px;
+display: flex;
+text-align: center;
+justify-content: center;
+flex-direction: column;
+background-color: #eff3f4;
+
+}
+ .labelinput {
+  display:block;
+ }
+
+ .containergoutlogin {
+
+  margin-top: 50px;
+  height: 70vh;
+  box-shadow: 0 6px 20px 3px rgb(0, 0, 0, 9%);
+  background-image: linear-gradient( #c1c8cb, rgb(227, 246, 248));
+ }
+ .rowlogoutlogin {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+ }
+ .containerform {
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.divform {
+  margin: 100px;
+  height: 400px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: solid#b9bcbe;
+ 
+}
+
+.containerchekout {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 700px;
+  height: 500px;
+  box-shadow: 0 60px 50px 3px rgb(0, 0, 0, 9%);
+  background-image: linear-gradient( #c1c8cb, rgb(227, 246, 248));
+}
+
+.containerchek {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/*.side-bar-wrapper {
+  position: fixed;
+  top: 0;
+  height: 100%;
+  z-index: 2;
+  background-color: rgba(45, 49, 49, 0.3);
+}
+
+#side-bar {
+  height: 100%;
+  width: 0;
+  position: sticky;
+  top: 0;
+  right: 0;
+  
+  overflow-x: hidden;
+  transition: 0.5s;
+  z-index: 1;
+} */
+.d-flex {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+  .cont {
+      background-image: linear-gradient( #a4a8aa, rgb(227, 246, 248));
+  }
+     
+      
+      h3 {
+          padding-top: 15px;
+      }
+
+      .dropdown {
+        margin: 20px;
+      }
+
+      .CartWidget {
+        margin: 10px;
+      }
+      
+
+@media screen and (max-width: 580px) {
+   #teAyudamos {
+    display: none;
+   }
+   .rowitemlist {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   }
+   .carddetail {
+    margin: 0;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+
+   }
+   .coldetail {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+   }
+   .searchform{
+     display: none !important;
+   }
+   
+   /*.containerchek{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+    width: min-content;
+   } */
+    
+}
+    
